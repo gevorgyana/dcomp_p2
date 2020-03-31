@@ -1,0 +1,22 @@
+<Periodicals>
+    <Paper>
+	<title>First</title>
+	<type>Magazine</type>
+	<monthly>true</monthly>
+        <Chars>
+	    <colored>true</colored>
+            <size>100</size>
+            <glossy>true</glossy>
+        </Chars>
+    </Paper>
+    <Paper>
+	<title>Second</title>
+	<type>Newspaper</type>
+	<monthly>false</monthly>
+        <Chars>
+	    <colored>true</colored>
+            <size>15</size>
+            <glossy>false</glossy>
+        </Chars>
+    </Paper>
+</Periodicals>

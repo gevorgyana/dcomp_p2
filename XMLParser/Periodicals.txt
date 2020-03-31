@@ -1,0 +1,57 @@
+
+Paper{ 
+	Title: Kalush Visnyk, 
+	Type: Booklet, 
+	Monthly: No, 
+	Chars: {number of pages : 3, colored: no, glossy: no}
+}
+Paper{ 
+	Title: Kyiv Live, 
+	Type: Newspaper, 
+	Monthly: No, 
+	Chars: {number of pages : 15, colored: yes, glossy: no}
+}
+Paper{ 
+	Title: Times, 
+	Type: Magazine, 
+	Monthly: Yes, 
+	Chars: {number of pages : 100, colored: yes, glossy: yes}
+}
+
+Paper{ 
+	Title: Kalush Visnyk, 
+	Type: Booklet, 
+	Monthly: No, 
+	Chars: {number of pages : 3, colored: no, glossy: no}
+}
+Paper{ 
+	Title: Kyiv Live, 
+	Type: Newspaper, 
+	Monthly: No, 
+	Chars: {number of pages : 15, colored: yes, glossy: no}
+}
+Paper{ 
+	Title: Times, 
+	Type: Magazine, 
+	Monthly: Yes, 
+	Chars: {number of pages : 100, colored: yes, glossy: yes}
+}
+
+Paper{ 
+	Title: Kalush Visnyk, 
+	Type: Booklet, 
+	Monthly: No, 
+	Chars: {number of pages : 3, colored: no, glossy: no}
+}
+Paper{ 
+	Title: Kyiv Live, 
+	Type: Newspaper, 
+	Monthly: No, 
+	Chars: {number of pages : 15, colored: yes, glossy: no}
+}
+Paper{ 
+	Title: Times, 
+	Type: Magazine, 
+	Monthly: Yes, 
+	Chars: {number of pages : 100, colored: yes, glossy: yes}
+}

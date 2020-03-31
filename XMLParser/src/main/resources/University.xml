@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<university>
+    <group course="3" name="IPS-32">
+        <student age="20" name="Stanislav Dzundza"/>
+        <student age="20" name="Blahii Andrii"/>
+    </group>
+    <group course="3" name="IPS-31">
+        <student age="20" name="Vladislav Tochanenko"/>
+        <student age="20" name="Oleh Mospan"/>
+    </group>
+</university>

@@ -22,14 +22,6 @@ public class Client {
         objectInputStream = new ObjectInputStream(sock.getInputStream());
     }
 
-    private int sendQuery(int operation, int value1, int value2) throws IOException {
-        out.writeInt(operation);
-        out.writeInt(value1);
-        out.writeInt(value2);
-        int res = in.readInt();
-        return res;
-    }
-
     public boolean addGroup(String name, int course) throws IOException {
         Query operation = Query.addGroup;
         objectOutputStream.writeObject(operation);

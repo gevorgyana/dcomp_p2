@@ -17,12 +17,16 @@ public class XmlFileValidator {
          log = Logger.getLogger(XmlFileValidator.class.getName());
     }
 
-    public static boolean validateXMLDocument(String pathToXmlDocument, String pathToXsdFile) {
+    public static boolean validateXMLDocument(String pathToXmlDocument,
+                                              String pathToXsdFile) {
         try {
-            SchemaFactory factory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+            SchemaFactory factory = SchemaFactory
+                .newInstance("http://www.w3.org/2001/XMLSchema");
             Schema schema = factory.newSchema(new File(pathToXsdFile));
             Validator validator = schema.newValidator();
-            validator.validate(new StreamSource(new File(pathToXmlDocument)));
+            validator.validate(new
+                               StreamSource(new
+                                            File(pathToXmlDocument)));
         } catch (SAXException e) {
             log.info(String.format("Validation error : %s", e.getMessage()));
             return false;

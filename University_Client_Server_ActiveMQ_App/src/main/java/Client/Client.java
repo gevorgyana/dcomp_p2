@@ -24,7 +24,6 @@ public class Client {
     public Client() throws JMSException {
         // Getting JMS connection from the server
         connectionFactory = new ActiveMQConnectionFactory(url);
-        connectionFactory.setTrustAllPackages(true);
         connection = connectionFactory.createConnection();
         connection.start();
         //Creating a non transactional session to send/receive JMS message.
